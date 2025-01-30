@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    background: #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul .active {
+    background-color: #50a6cd;
+    border-radius: 5px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.settings p {
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #50a6cd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.schedule {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.date-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.view-options {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.calendar {
+    margin-top: 20px;
+    background: #efefef;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.time-slot {
+    margin-bottom: 10px;
+}
+
+.lesson {
+    background: #50a6cd;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Styling for the sidebar links */
+.sidebar nav ul li,
+.settings ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.sidebar nav ul li a,
+.settings ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar nav ul li a:hover,
+.settings ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Active link styling */
+.sidebar nav ul .active {
+    background-color: #50a6cd; /* Matching your color scheme */
+    border-radius: 5px;
+}
+
+.settings ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Styling for the login and tasks links */
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Settings section hover effect */
+.settings ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.settings ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
