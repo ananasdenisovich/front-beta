@@ -100,6 +100,7 @@ nav ul .active {
     border: none;
     font-size: 20px;
     cursor: pointer;
+    
 }
 
 .view-options {
@@ -302,6 +303,7 @@ button:hover {
     color: white;
     display: block;
     padding: 10px;
+    
 }
 
 .sidebar nav ul li a:hover,
@@ -327,6 +329,7 @@ button:hover {
     color: white;
     display: block;
     padding: 10px;
+    
 }
 
 .sidebar nav ul li a:hover {
